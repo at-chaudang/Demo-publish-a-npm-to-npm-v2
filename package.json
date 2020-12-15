@@ -1,0 +1,22 @@
+{
+  "name": "dvc-tieng-viet-cho-de",
+  "version": "1.0.4",
+  "description": "Add read me",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:at-chaudang/Demo-publish-a-npm-to-npm-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
